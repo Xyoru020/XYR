@@ -5,7 +5,7 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/subhanVPN/Azerd/ABSTRAK/gas.sh && chmod +x gas.sh && ./gas.sh
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/XYR/ABSTRAK/gas.sh && chmod +x gas.sh && ./gas.sh
 </code></pre>
 
 ### PERINTAH UPDATE 
