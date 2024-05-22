@@ -14,7 +14,6 @@ REDBG="\033[41;37m"
 OK="${Green}--->${FONT}"
 ERROR="${RED}[ERROR]${FONT}"
 GRAY="\e[1;30m"
-CYAN="\033[96;1m"
 NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
@@ -37,7 +36,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[41;1;97m                    XYR-VPN STORE                     ${NC}"
+echo -e "\033[41;1;97m                    XYR-VPN VPN STORE                     ${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -283,12 +282,11 @@ clear
 function pasang_domain() {
 echo -e ""
 clear
-echo -e ""
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Domain pribadi (wajib punya domain)"
-#echo -e "     \e[1;32m2)\e[0m Random Domain "
+echo -e "     \e[1;32m1)\e[0m Domain pribadi"
+echo -e "     \e[1;32m2)\e[0m Random Domain "
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
@@ -331,7 +329,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/subhanVPN"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/6285648758597"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/Xyoru"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/6285648758597"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
