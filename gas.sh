@@ -284,11 +284,11 @@ function pasang_domain() {
 echo -e ""
 clear
 echo -e ""
-echo -e "   .----------------------------------."
+    echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Domain pribadi"
-echo -e "     \e[1;32m2)\e[0m Random Domain "
+echo -e "     \e[1;32m1)\e[0m Domain pribadi (wajib punya domain)"
+#echo -e "     \e[1;32m2)\e[0m Random Domain "
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
