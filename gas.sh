@@ -284,10 +284,10 @@ function pasang_domain() {
 echo -e ""
 clear
 echo -e ""
-echo -e ${CYAN}   __  ____   _____   __   _____ _  _ 
+echo -e " ${Green}   __  ____   _____   __   _____ _  _ 
                       \ \/ /\ \ / / _ \__\ \ / / _ \ \| |
                        >  <  \ V /|   /___\ V /|  _/ .` |
-                      /_/\_\  |_| |_|_\    \_/ |_| |_|\_| " | lolcat
+                      /_/\_\  |_| |_|_\    \_/ |_| |_|\_|" ${CYAN}
 
 echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
