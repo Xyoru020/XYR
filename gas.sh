@@ -14,6 +14,7 @@ REDBG="\033[41;37m"
 OK="${Green}--->${FONT}"
 ERROR="${RED}[ERROR]${FONT}"
 GRAY="\e[1;30m"
+CYAN="\033[96;1m"
 NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
@@ -282,7 +283,13 @@ clear
 function pasang_domain() {
 echo -e ""
 clear
-    echo -e "   .----------------------------------."
+echo -e ""
+echoecho -e ${CYAN}   __  ____   _____   __   _____ _  _ 
+                      \ \/ /\ \ / / _ \__\ \ / / _ \ \| |
+                       >  <  \ V /|   /___\ V /|  _/ .` |
+                      /_/\_\  |_| |_|_\    \_/ |_| |_|\_| " | lolcat
+
+echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
 echo -e "     \e[1;32m1)\e[0m Domain pribadi"
