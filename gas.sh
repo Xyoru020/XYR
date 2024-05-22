@@ -284,7 +284,7 @@ function pasang_domain() {
 echo -e ""
 clear
 echo -e ""
-echoecho -e ${CYAN}   __  ____   _____   __   _____ _  _ 
+echo -e ${CYAN}   __  ____   _____   __   _____ _  _ 
                       \ \/ /\ \ / / _ \__\ \ / / _ \ \| |
                        >  <  \ V /|   /___\ V /|  _/ .` |
                       /_/\_\  |_| |_|_\    \_/ |_| |_|\_| " | lolcat
