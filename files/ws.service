@@ -1,12 +1,12 @@
 [Unit]
 Description=WebSocket
-Documentation=https://github.com/jaka1m
+Documentation=https://script-joss.my.id
 After=syslog.target network-online.target
 
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/usr/bin/ws -f /usr/bin/tun.conf
+ExecStart=/usr/bin/ws -salome -f /usr/bin/tun.conf
 Restart=on-failure
 RestartPreventExitStatus=23
 LimitNPROC=10000
