@@ -5,15 +5,15 @@ LISTENING_ADDR = '127.0.0.1'
 if sys.argv[1:]:
   LISTENING_PORT = sys.argv[1]
 else:
-  LISTENING_PORT = 10015  
-#Passwd
+  LISTENING_PORT = 700  
+#Pass
 PASS = ''
 
 # CONST
 BUFLEN = 4096 * 4
 TIMEOUT = 60
-DEFAULT_HOST = '127.0.0.1:143'
-RESPONSE = 'HTTP/1.1 101 LunaticTunneling\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: foo\r\n\r\n'
+DEFAULT_HOST = '127.0.0.1:22'
+RESPONSE = 'HTTP/1.1 101 <b><font color="red">Geovpn Tunnel</font></b>\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
